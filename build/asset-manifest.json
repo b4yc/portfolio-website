@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.59dfc5b8.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.ff67340d.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.ff67340d.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.c341a197.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.c341a197.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.a1894ee7.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.a1894ee7.js.map",
-    "static/css/2.0a453f77.chunk.css": "/portfolio-website/static/css/2.0a453f77.chunk.css",
-    "static/js/2.c7872596.chunk.js": "/portfolio-website/static/js/2.c7872596.chunk.js",
-    "static/js/2.c7872596.chunk.js.map": "/portfolio-website/static/js/2.c7872596.chunk.js.map",
+    "static/css/2.34200e5a.chunk.css": "/portfolio-website/static/css/2.34200e5a.chunk.css",
+    "static/js/2.8c667c5f.chunk.js": "/portfolio-website/static/js/2.8c667c5f.chunk.js",
+    "static/js/2.8c667c5f.chunk.js.map": "/portfolio-website/static/js/2.8c667c5f.chunk.js.map",
     "static/js/3.30e78391.chunk.js": "/portfolio-website/static/js/3.30e78391.chunk.js",
     "static/js/3.30e78391.chunk.js.map": "/portfolio-website/static/js/3.30e78391.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/css/2.0a453f77.chunk.css.map": "/portfolio-website/static/css/2.0a453f77.chunk.css.map",
+    "static/css/2.34200e5a.chunk.css.map": "/portfolio-website/static/css/2.34200e5a.chunk.css.map",
     "static/css/main.59dfc5b8.chunk.css.map": "/portfolio-website/static/css/main.59dfc5b8.chunk.css.map",
-    "static/js/2.c7872596.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.c7872596.chunk.js.LICENSE.txt",
+    "static/js/2.8c667c5f.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.8c667c5f.chunk.js.LICENSE.txt",
     "static/media/car.95279187.png": "/portfolio-website/static/media/car.95279187.png",
     "static/media/climate-off.49cabb6c.png": "/portfolio-website/static/media/climate-off.49cabb6c.png",
     "static/media/home.cb18fca8.png": "/portfolio-website/static/media/home.cb18fca8.png",
@@ -30,9 +30,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a1894ee7.js",
-    "static/css/2.0a453f77.chunk.css",
-    "static/js/2.c7872596.chunk.js",
+    "static/css/2.34200e5a.chunk.css",
+    "static/js/2.8c667c5f.chunk.js",
     "static/css/main.59dfc5b8.chunk.css",
-    "static/js/main.ff67340d.chunk.js"
+    "static/js/main.c341a197.chunk.js"
   ]
 }
