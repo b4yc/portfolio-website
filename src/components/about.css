@@ -1,0 +1,10 @@
+.message-box {
+  position: relative;
+  text-align: left;
+  padding: 20px;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 0.8em;
+  line-height: 150%;
+}

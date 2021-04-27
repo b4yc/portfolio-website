@@ -1,0 +1,102 @@
+.contact-container {
+  width: 60vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.received-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.received-message {
+  background-color: rgba(31, 30, 37, 0.4);
+  padding: 20px;
+  border-radius: 30px;
+  font-size: large;
+}
+
+.sent-message {
+  background-color: rgb(62, 147, 168);
+  padding: 30px;
+  border-radius: 30px;
+  text-align: left;
+  font-size: large;
+  width: 90%;
+}
+
+a {
+  color: rgb(30, 158, 190);
+  text-decoration: none;
+}
+
+.input {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 93%;
+  border-radius: 20px;
+  background-color: rgba(28, 28, 31, 0.7);
+}
+
+-webkit-input-placeholder {
+  color: rgb(114, 114, 114);
+}
+
+.input-field {
+  background-color: rgba(37, 37, 44, 0);
+  color: white;
+  width: 90%;
+  height: 2em;
+  padding: 10px;
+  border-color: rgb(59, 59, 59);
+  border-style: none none solid none;
+  border-width: 1px;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+.input-field:focus {
+  border-color: rgb(30, 158, 190);
+  outline: none;
+}
+
+.message-field {
+  height: 10rem;
+}
+
+.input button {
+  height: 40px;
+  width: 40px;
+}
+
+.send-container {
+  position: relative;
+}
+
+.send-icon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.error-message {
+  color: rgb(255, 147, 147);
+  font-size: medium;
+  text-align: left;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    width: 80vw;
+  }
+  .input {
+    width: 90%;
+  }
+}
