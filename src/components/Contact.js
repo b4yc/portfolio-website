@@ -1,4 +1,4 @@
-import ProfileImg from "../images/smile.png";
+import ProfileImg from "../images/thumbs-up.png";
 import "./contact.css";
 import { FontAwesome } from "react-icons/fa";
 import { FaPaperPlane } from "react-icons/fa";
