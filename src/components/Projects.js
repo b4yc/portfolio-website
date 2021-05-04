@@ -264,7 +264,7 @@ const Projects = () => {
             </div>
             <div className="button-container">
               <a
-                href="https://github.com/relectric-car-team/user-interface"
+                href="https://github.com/b4yc/portfolio-website"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link-button"

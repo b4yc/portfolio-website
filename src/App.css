@@ -15,9 +15,7 @@
     #395461,
     #292e49
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background-image: url("/src/images/background.jpg"); */
-  /* background-repeat: no-repeat; */
+  /* overflow-x: hidden; */
 }
 
 .App-logo {
