@@ -97,10 +97,7 @@ const Experience = () => {
             Full Stack Developer Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">RBC</h4>
-          <p>
-            A startup that uses BCI technology to generate live art based on
-            emotional state.
-          </p>
+          <p>Full stack web development of the online banking experience.</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
