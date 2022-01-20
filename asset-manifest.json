@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.3c67855e.chunk.css",
-    "main.js": "./static/js/main.2217e537.chunk.js",
-    "main.js.map": "./static/js/main.2217e537.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6c24fcfd.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6c24fcfd.js.map",
-    "static/css/2.34200e5a.chunk.css": "./static/css/2.34200e5a.chunk.css",
-    "static/js/2.8c667c5f.chunk.js": "./static/js/2.8c667c5f.chunk.js",
-    "static/js/2.8c667c5f.chunk.js.map": "./static/js/2.8c667c5f.chunk.js.map",
-    "static/js/3.30e78391.chunk.js": "./static/js/3.30e78391.chunk.js",
-    "static/js/3.30e78391.chunk.js.map": "./static/js/3.30e78391.chunk.js.map",
+    "main.css": "./static/css/main.97663eb9.chunk.css",
+    "main.js": "./static/js/main.ce70bbc1.chunk.js",
+    "main.js.map": "./static/js/main.ce70bbc1.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.dfcecf54.js",
+    "runtime-main.js.map": "./static/js/runtime-main.dfcecf54.js.map",
+    "static/css/2.c3f19f2e.chunk.css": "./static/css/2.c3f19f2e.chunk.css",
+    "static/js/2.5ad2910b.chunk.js": "./static/js/2.5ad2910b.chunk.js",
+    "static/js/2.5ad2910b.chunk.js.map": "./static/js/2.5ad2910b.chunk.js.map",
+    "static/js/3.175debe9.chunk.js": "./static/js/3.175debe9.chunk.js",
+    "static/js/3.175debe9.chunk.js.map": "./static/js/3.175debe9.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.34200e5a.chunk.css.map": "./static/css/2.34200e5a.chunk.css.map",
-    "static/css/main.3c67855e.chunk.css.map": "./static/css/main.3c67855e.chunk.css.map",
-    "static/js/2.8c667c5f.chunk.js.LICENSE.txt": "./static/js/2.8c667c5f.chunk.js.LICENSE.txt",
+    "static/css/2.c3f19f2e.chunk.css.map": "./static/css/2.c3f19f2e.chunk.css.map",
+    "static/css/main.97663eb9.chunk.css.map": "./static/css/main.97663eb9.chunk.css.map",
+    "static/js/2.5ad2910b.chunk.js.LICENSE.txt": "./static/js/2.5ad2910b.chunk.js.LICENSE.txt",
     "static/media/car.95279187.png": "./static/media/car.95279187.png",
     "static/media/climate-off.49cabb6c.png": "./static/media/climate-off.49cabb6c.png",
     "static/media/home.cb18fca8.png": "./static/media/home.cb18fca8.png",
@@ -30,10 +30,10 @@
     "static/media/website.c58c210a.png": "./static/media/website.c58c210a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c24fcfd.js",
-    "static/css/2.34200e5a.chunk.css",
-    "static/js/2.8c667c5f.chunk.js",
-    "static/css/main.3c67855e.chunk.css",
-    "static/js/main.2217e537.chunk.js"
+    "static/js/runtime-main.dfcecf54.js",
+    "static/css/2.c3f19f2e.chunk.css",
+    "static/js/2.5ad2910b.chunk.js",
+    "static/css/main.97663eb9.chunk.css",
+    "static/js/main.ce70bbc1.chunk.js"
   ]
 }
