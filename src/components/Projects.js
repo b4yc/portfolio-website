@@ -129,7 +129,7 @@ const Projects = () => {
           onClick={() => setRembraindtIsOpen(true)}
         >
           <img src={RembraindtRainbow}></img>
-          RemBRAINdt Generative Art
+          Generative Art
         </div>
         <Modal
           isOpen={rembraindtIsOpen}

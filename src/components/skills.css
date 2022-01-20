@@ -2,22 +2,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
 }
 
 .skills-box {
-  position: relative;
-  width: 10em;
-  height: 11em;
+  max-width: 10em;
+  min-height: 11em;
   background-color: rgba(30, 33, 43, 0.5);
   border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-}
-
-.skills-box:hover {
-  transform: translateY(20px);
+  padding: 1em;
+  margin: 1em;
 }
 
 .skills-box h2 {
@@ -29,10 +23,10 @@
 }
 
 #skills button {
-  background-color: rgba(30, 33, 43, 0);
+  background-color: rgba(30, 33, 43, 0.5);
   border: none;
   border-radius: 30px;
-  box-shadow: 0px 0px 10px #34b0cf;
+  box-shadow: 0px 0px 10px #88c1cf;
   margin-top: 30px;
   padding: 20px;
   color: white;

@@ -7,8 +7,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 import { Link } from "react-scroll";
-import Particles from "react-particles-js";
-import particlesConfig from "..//config/particlesConfig";
 
 const Home = () => {
   return (
