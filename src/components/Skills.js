@@ -93,7 +93,7 @@ const Skills = () => {
               <li>Server/Client Architecture</li>
               <li>Data Structures and Algorithms</li>
               <li>Networking Principles + HTTP</li>
-              <li>Rest Frameworks</li>
+              <li>Rest Frameworks, Rest APIs</li>
               <li>Blockchain Development</li>
             </ul>
           </div>

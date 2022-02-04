@@ -11,18 +11,20 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div className="home-section" id="home">
-      {/* <div style={{ position: "absolute" }}>
-        <Particles height="100vh" width="70vw" params={particlesConfig} />
-      </div> */}
       <div style={{ marginTop: "100px" }}>
         <img src={ProfileImg} width="150"></img>
         <h1>Baylee Cheung</h1>
         <p>
           I'm a{" "}
           <Typed
-            strings={["Software Developer ", "Creative Student"]}
-            typeSpeed={60}
-            backSpeed={50}
+            strings={[
+              "Software Developer",
+              "Creative Student",
+              "Passionate Artist",
+            ]}
+            typeSpeed={40}
+            backSpeed={30}
+            backDelay={1000}
             loop
           />
         </p>

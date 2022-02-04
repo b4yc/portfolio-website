@@ -26,6 +26,7 @@ nav {
   width: 70%;
   height: 60%;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .nav-links-link {

@@ -20,12 +20,19 @@ import WebsiteHome from "../images/website.png";
 import RembraindtRed from "../images/rembraindt-red.png";
 import RembraindtPurple from "../images/rembraindt-purple.png";
 import RembraindtRainbow from "../images/rembraindt-rainbow.jpg";
+import Spacestagram from "../images/spacestagram.png";
+import SpacestagramVideo from "../images/spacestagram.gif";
+import NearfundingHome from "../images/nearfunding-home.png";
+import NearfundingAdd from "../images/nearfunding-add.png";
+import NearfundingProfile from "../images/nearfunding-profile.png";
 
 const Projects = () => {
   const [relectricIsOpen, setRelectricIsOpen] = useState(false);
   const [rembraindtIsOpen, setRembraindtIsOpen] = useState(false);
   const [websiteIsOpen, setWebsiteIsOpen] = useState(false);
   const [inventoryIsOpen, setInventoryIsOpen] = useState(false);
+  const [spacestagramIsOpen, setSpacestagramIsOpen] = useState(false);
+  const [nearfundingIsOpen, setNearfundingIsOpen] = useState(false);
 
   const customStyles = {
     content: {
@@ -62,6 +69,106 @@ const Projects = () => {
     <div id="projects">
       <h1>Projects</h1>
       <div className="project-container">
+        <div
+          className="project-preview"
+          onClick={() => setSpacestagramIsOpen(true)}
+        >
+          <img src={Spacestagram}></img>
+          Spacestagram
+        </div>
+        <Modal
+          isOpen={spacestagramIsOpen}
+          onRequestClose={() => {
+            setSpacestagramIsOpen(false);
+          }}
+          style={customStyles}
+          contentLabel="Example Modal"
+          closeTimeoutMS={200}
+        >
+          <div className="slide-container project-slideshow">
+            <Fade {...slideshowProperties}>
+              <div className="each-fade">
+                <img src={SpacestagramVideo} />
+              </div>
+            </Fade>
+          </div>
+          <div>
+            A project that's out of this world! Spacestagram is a front-end
+            application that consumes NASA's API to retrieve their photos of the
+            day. You can infinitely browse through photos, read the background
+            about it, "like" your favourite images to add it to your collection,
+            and share the images with friends! Need to take a coffee break from
+            scrolling through space? Go ahead, this application utilizes browser
+            caching to save your favourite images even if you leave the page.
+          </div>
+          <div className="button-container">
+            <a
+              href="https://b4yc.github.io/spacestagram/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-button"
+            >
+              Visit the Deployed Project
+            </a>
+            <a
+              href="https://github.com/b4yc/spacestagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-button"
+            >
+              View the source on Github
+            </a>
+          </div>
+        </Modal>
+        <div
+          className="project-preview"
+          onClick={() => setNearfundingIsOpen(true)}
+        >
+          <img src={NearfundingHome}></img>
+          Blockchain Crowdfunding
+        </div>
+        <Modal
+          isOpen={nearfundingIsOpen}
+          onRequestClose={() => {
+            setNearfundingIsOpen(false);
+          }}
+          style={customStyles}
+          contentLabel="Example Modal"
+          closeTimeoutMS={200}
+        >
+          <div className="slide-container project-slideshow">
+            <Fade {...slideshowProperties}>
+              <div className="each-fade">
+                <img src={NearfundingHome} />
+              </div>
+              <div className="each-fade">
+                <img src={NearfundingProfile} />
+              </div>
+              <div className="each-fade">
+                <img src={NearfundingAdd} />
+              </div>
+            </Fade>
+          </div>
+          <div>
+            Developed a full stack crowdfunding application built on the NEAR
+            block-chain protocol, find out more
+            <a href="https://near.org/"> here</a>! Developed and deployed smart
+            contracts written in AssemblyScript to allow linking of wallets to
+            the application and securely transfer NEAR coins between wallets. I
+            also designed and developed the front-end application using
+            Bootstrap to allow for browsing and creation of fundraisers
+          </div>
+          <div className="button-container">
+            <a
+              href="https://github.com/b4yc/nearfunding"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-button"
+            >
+              View the source on Github
+            </a>
+          </div>
+        </Modal>
         <div
           className="project-preview"
           onClick={() => setRelectricIsOpen(true)}
@@ -157,13 +264,13 @@ const Projects = () => {
 
             <div style={{ marginTop: "5%" }}>
               From its roots as the NeuroNexus 2020 hackathon first place
-              winner, to a new tech start-up, I work at RemBRAINdt as a software
-              developer. We work with BCI technology to create dynamic
-              generative art based on the user's emotional state. The emotional
-              state is determined using extensive machine learning from a
-              baseline of the user. The backend relies on cloud computing and
-              the front-end is made as a web application using Javascript,
-              React, and Node.js.
+              winner, to a new tech start-up, I worked at RemBRAINdt as a full
+              stack software developer. We work with BCI technology to create
+              dynamic generative art based on the user's emotional state. The
+              emotional state is determined using extensive machine learning
+              from a baseline test of the user's emotional data. The backend
+              relies on Google Cloud Platform and Firebase, and the front-end is
+              a web application using Javascript, React, and Node.js.
             </div>
             <div className="button-container">
               <a
